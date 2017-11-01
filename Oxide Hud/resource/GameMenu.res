@@ -1,38 +1,11 @@
 "GameMenu"
 {
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" ""
 	} 
-	"InGameQuitButton"
-	{
-		"label"			"QUIT"
-		"command"		"engine replay_confirmquit"
-		"OnlyInGame"	"1"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" 		"#GameUI_GameMenu_ReplayDemos"
