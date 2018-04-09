@@ -283,23 +283,102 @@
 		"show_progress"	"0"
 	}
 	
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"cs-0.5-84"
+		"ypos"			"cs-0.5-92"
+		"zpos"			"15"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-285"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"0"	//8
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"c-390"
-		"ypos"			"72"
-		"zpos"			"0"
+		"ypos"			"95"
+		"zpos"			"-52"
 		"wide"			"320"
-		"tall"			"100"
-		"visible"		"1"
+		"tall"			"103"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
 	}
 	
 	"FriendsContainer"
@@ -1348,7 +1427,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"c-265"
-		"ypos"			"160"
+		"ypos"			"190"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1405,7 +1484,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"c-265"
-		"ypos"			"190"
+		"ypos"			"220"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1462,7 +1541,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-265"
-		"ypos"			"220"
+		"ypos"			"250"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1519,7 +1598,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"c-265"
-		"ypos"			"250"
+		"ypos"			"280"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1569,7 +1648,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-265"
-		"ypos"			"280"
+		"ypos"			"310"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1626,7 +1705,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-265"
-		"ypos"			"310"
+		"ypos"			"340"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1684,7 +1763,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"c-265"
-		"ypos"			"370"
+		"ypos"			"400"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1734,7 +1813,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"c-265"
-		"ypos"			"370"
+		"ypos"			"400"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1784,7 +1863,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
 		"xpos"			"c-265"
-		"ypos"			"190"
+		"ypos"			"220"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1841,7 +1920,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
 		"xpos"			"c-265"
-		"ypos"			"340"
+		"ypos"			"370"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1898,7 +1977,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
 		"xpos"			"c-265"
-		"ypos"			"280"
+		"ypos"			"310"
 		"zpos"			"15"
 		"wide"			"250"
 		"tall"			"26"
@@ -1991,289 +2070,5 @@
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
 		}				
-	}
-
-	"EventPromo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
-		"xpos"			"9999"
-		"ypos"			"0"
-		"zpos"			"-60"
-		"wide"			"320"
-		"tall"			"f0"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-
-			
-		"EventImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"EventImage"
-			"xpos"					"cs-0.5"
-			"ypos"					"50"
-			"zpos"					"-1"
-			"wide"					"p0.9"
-			"tall"					"o1"
-			"visible"				"0"
-			"enabled"				"1"
-			"image"					"menu_background_eotl_duck"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-		}	
-
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"cs-0.5"
-			"ypos"			"300"
-			"zpos"			"0"
-			"wide"			"p0.8"
-			"tall"			"120"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"OperationTitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"OperationTitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"center"
-				"xpos"			"p0.05"
-				"ypos"			"0"
-				"wide"			"p0.9"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"20"
-				"fgcolor_override"	"235 227 203 255"
-				"proportionaltoparent"	"1"
-			}
-
-			"ViewDetailsButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.25"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewUpdateDetails"
-					"proportionaltoparent"	"1"
-					"command"		"view_update_page"
-					"actionsignallevel"	"4"
-			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
-			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
-			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
-				}
-			}
-			
-			"ViewComicButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewComicButton"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"0"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewUpdateComic"
-					"proportionaltoparent"	"1"
-					"command"		"view_update_comic"
-					"actionsignallevel"	"4"
-			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
-			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
-			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
-				}
-			}
-
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-				"ypos"					"p0.47"
-				"zpos"					"100"
-				"wide"					"f10"
-				"tall"					"p0.5"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		 	"Unused Operation Tough Break Pass"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Tough Break Case 01 Pyroland"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Tough Break Case 02 Warbirds"
-						"show_market"	"1"
-					}
-					"3"
-					{
-						"item"		"Tough Break Key"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Tough Break Cosmetic Case"
-						"show_market"	"1"
-					}
-					"5"
-					{
-						"item"		"Tough Break Cosmetic Key"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Aerobic Taunt"
-						"show_market"	"0"
-					}
-					
-				}
-			}
-
-		} // Background
-
-		"NewImage"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"NewImage"
-			"xpos"					"-60"
-			"ypos"					"-52"
-			"zpos"					"100"
-			"wide"					"80"
-			"tall"					"o1"
-			"visible"				"0"
-			"enabled"				"1"
-			"image"					"new_large"
-			"scaleImage"			"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"		"0"
-
-			"pin_to_sibling"		"Background"
-			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"	
-		}
-
-	} // EventPromo
-
-	"icon_generator"
-	{
-		"ControlName"		"CEmbeddedItemModelPanel"
-		"fieldName"		"icon_generator"
-
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"300"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"useparentbg"		"1"
-	
-		"inset_eq_x"	"2"
-		"inset_eq_y"	"2"
-
-		"fov"			"54"
-		"start_framed"		"1"
-
-		"disable_manipulation"	"1"
-
-		"model"
-		{
-			"angles_x"		"10"
-			"angles_y"		"130"
-			"angles_z"		"0"
-		}
 	}
 }
