@@ -6,9 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r180"	[$WIN32]
-		"ypos"			"r22"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos"			"r15"	[$WIN32]
 		"wide"			"250"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,7 +23,6 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	

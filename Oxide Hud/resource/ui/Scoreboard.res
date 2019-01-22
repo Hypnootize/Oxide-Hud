@@ -5,12 +5,8 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
-		"xpos_lodef"	"34"
-		"xpos_hidef"	"4"
 		"ypos"			"31"
 		"wide"			"640"
-		"wide_lodef"	"560"
-		"wide_hidef"	"620"
 		"tall"			"448"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -97,8 +93,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}							
 	"BlueTeamLabel"
@@ -322,7 +317,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -346,7 +341,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
@@ -502,7 +497,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"ClassImage"
@@ -523,7 +518,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -545,8 +540,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
-			"wide"			"175"
+			"visible"		"0"
 		}
 	}	
 	"MapName"
@@ -595,7 +589,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -851,7 +845,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"xpos"		"-9999"
 		}
 
 		"KillsLabel"

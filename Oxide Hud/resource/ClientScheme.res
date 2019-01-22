@@ -1,3 +1,4 @@
+#base "../resource/crosshairs/Crosshair Fonts.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -468,52 +469,6 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"CrossHairNormal"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"32"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-		
-		"CrossHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"22"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-		
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"28"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"CrossHairDot"
-		{
-			"1"
-			{
-				"name"		"Braille Normal"
-				"tall"		"18"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
 		"Default"
 		{
 			"1"

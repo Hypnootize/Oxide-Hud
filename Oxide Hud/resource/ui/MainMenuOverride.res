@@ -174,40 +174,6 @@
 		"enabled"		"1"
 		"image"			"../console/title_blue"
 		"scaleImage"	"1"
-		
-		if_halloween
-		{
-//			"image"		"../console/title_team_halloween"
-		}
-	}
-	
-	"TFLogoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-99"
-		"wide"			"0"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
-	}
-	
-	"TFCharacterImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
-		"wide"			"0"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
 	}
 	
 	"TooltipPanel"
@@ -287,74 +253,36 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-84"
-		"ypos"			"cs-0.5-92"
-		"zpos"			"15"
-		"wide"			"15"
-		"tall"			"15"
+		"xpos"			"-120"
+		"ypos"			"-23"
+		"zpos"			"14"
+		"wide"			"200"
+		"tall"			"56"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"use_proportional_insets"	"1"
 		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
-		"actionsignallevel" "1"
+		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
-				
-		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_depressed" 	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		
+		"paintbackground"	"0"
 		"paintborder"		"0"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-		}		
+		
+		"alpha"				"0"
+		
+		"pin_to_sibling"		"RankPanel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
-	"RankTooltipPanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"99"
-		"zpos"			"-1"
-		"wide"			"8"
-		"tall"			"0"	//8
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-		"image"			"info"
-		"scaleImage"	"1"	
-		"alpha"			"75"
-	}
-	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -374,18 +302,11 @@
 		"show_type"		"1"
 	}
 
-	"RankBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"9999"
-	}
-	
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"r140"
+		"xpos"			"r120"
 		"ypos"			"90"
 		"zpos"			"10"
 		"wide"			"150"
@@ -413,40 +334,22 @@
 			"fgcolor_override"	"143 134 131 255"
 		}
 
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
-			"zpos"			"501"
-			"wide"			"f20"
-			"tall"			"110"
-			"visible"		"0"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
-		}
-
 		"SteamFriendsList"
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"xpos"			"12"
+			"ypos"			"32"
 			"zpos"			"500"
-			"wide"			"f20"
-			"tall"			"260"
+			"wide"			"110"
+			"tall"			"262"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"1"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
+			"inset_x"		"0"
+			"inset_y"		"0"
+			"row_gap"		"2"
 			"column_gap"	"20"
 			"restrict_width"	"0"
 
@@ -460,7 +363,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1+1"
+				"xpos"			"104"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -493,11 +396,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
-			"xpos"			"cs-.5"
-			"ypos"			"rs1-10"
+			"xpos"			"10"
+			"ypos"			"30"
 			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"260"
+			"wide"			"110"
+			"tall"			"264"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1266,48 +1169,6 @@
 		}
 	}	
 
-
-	"ShowWarButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowWarButton"
-		"xpos"			"c100"
-		"ypos"			"30"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"28"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"War is here!"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"25"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"showcomic"
-		"proportionaltoparent" "1"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-			
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"235 226 202 255"
-	}
-	
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"

@@ -2,26 +2,45 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"				"HudItemEffectMeter"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-50"
-		"ypos"					"c120"	
-		"wide"					"500"
-		"tall"					"500"
-		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r180"	[$WIN32]
+		"ypos"			"r22"	[$WIN32]
+		"wide"			"250"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"12"
+		"ypos"			"6"
+		"zpos"			"0"
+		"wide"			"76"
+		"tall"			"38"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_blue"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"19"
+		"xpos"					"100"
+		"ypos"					"-5"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"8"
+		"wide"					"41"
+		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -40,19 +59,18 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"17"
+		"ypos"					"-2"
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"2"				
+		"tall"					"8"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Center"
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}
-	
+	}	
 	
 	"ItemEffectMeterCount"
 	{
@@ -64,7 +82,7 @@
 		"wide"					"100"
 		"tall"					"20"	
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
@@ -72,15 +90,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmallBold"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
 	}
 }

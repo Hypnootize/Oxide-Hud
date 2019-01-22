@@ -3,18 +3,14 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"xpos"			"c123"	[$WIN32]
-		"xpos_minmode"	"c-54"	[$WIN32]
-		"ypos"			"r91"	[$WIN32]
-		"ypos_minmode"	"r178"	[$WIN32]
+		"xpos"			"r180"	[$WIN32]
+		"ypos"			"r42"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"220"//"220"
-		"tall"			"100"
-		"wide_minmode"	"100"
-		"tall_minmode"	"50"
+		"wide"			"250"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -42,7 +38,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -66,5 +62,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}	
+	}
 }
