@@ -1,20 +1,14 @@
+<div align="center">
+
 # Oxide Hud
+### By Oxide
 
+**[SCREENSHOTS](../screenshots/showcase.md)** -
+**[INSTALLATION](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/installation/windows_install.md)** -
+**[CONTRIBUTING](https://github.com/Hypnootize/TF2-HUD-GitHub-Resources/blob/main/contributing/github_contributing.md)**
 
-<a>LINKS</a>
-====
-
-[TeamFortress.tv](https://www.teamfortress.tv/33738/ive-updated-some-huds)
-
-[Screenshot Album](https://imgur.com/a/R9a13)
-
-[Changelogs](https://github.com/Hypnootize/Oxide-Hud/commits/master)
-
-[Installation](https://imgur.com/a/w3Ah6)
-
-![](https://i.imgur.com/dZ4FmnS.jpg)
-
-<a>CREDITS</a>
-====
-**Created By:** Oxide
-
+![Main Menu](../screenshots/01_Main_Menu.jpg)
+![Health Buff](../screenshots/04_Health_Buff.jpg)
+![Health & Ammo Low](../screenshots/05_Health_Ammo_Low.jpg)
+![Scoreboard](../screenshots/08_Scoreboard.jpg)
+![Win & Damage](../screenshots/11_Win.jpg)
